@@ -5,9 +5,11 @@ Install the drupal jsonapi module (https://www.drupal.org/project/jsonapi)
 ```
 composer require drupal/jsonapi
 ```
-Verify that the jsonapi module is working by requesting the list of articles
+Verify that the jsonapi module is working by requesting the list of articles, e.g.
 
+```
 curl https://drupal.hardened.be/jsonapi/node/article
+```
 This should return a json response with the list of published articles.
 
  
